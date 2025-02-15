@@ -1,0 +1,3 @@
+# PHP foreach Loop Bug
+This repository demonstrates an uncommon bug in PHP when using foreach loops to remove elements from an array during iteration.  The problem specifically arises when the array contains duplicate values and the code attempts to remove those values by their value.  Standard unset() behavior may not work as expected in these cases, and can lead to unexpected results.
+The solution uses a more robust approach to remove elements to fix this issue.
